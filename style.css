@@ -75,7 +75,7 @@
     position: fixed;
     background-color: rgba(0,0,0,0.4);
     color: #ffffff;
-    width: 98.5%;
+    width: 98.5vw;
     height: 3.125rem;
     padding: 0.625rem;
     justify-content: center;
@@ -131,6 +131,7 @@
     font-family: "azo-sans-web", sans-serif;
     font-weight: 400;
     overflow-x: hidden;
+    font-size: 1rem;
   }
 
   h1{
@@ -198,6 +199,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  .article img{
+    max-width: 100%;
+  }
   
   .email, .phone {
     margin-bottom: 5px;
@@ -215,10 +220,6 @@
     border-radius: 50%;
   }
   
-  .mainarticle {
-    width: 100%;
-  }
-
   .contact {
     background-image: url(images/Contact.jpg);
     background-repeat: no-repeat;
@@ -259,20 +260,49 @@
 
   a{
     text-decoration: none;
-    color: #fff;
+    color: #fff
+  }
+
+  .videos{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
   }
 
 
   @media (max-width: 767px) {
 
-    .aboutimage{
-      margin: 2%;
+
+    .carousel-container {
+        width: 100%;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
     }
 
+    body{
+      font-size: 0.75rem;
+    }
+
+    .gallery img{
+      width: 90%;
+    }
+
+    .gallery{
+      justify-content: center;
+    }
     .abouttext{
       text-align: center;
+      padding: 5%;
     }
-  
+
+    form{
+      width: 70%;
+    }
+
+    .main{
+      overflow-x: hidden;
+    }
+
       .navbar-container input[type="checkbox"],
       .navbar-container .hamburger-lines {
         display: block;
@@ -328,6 +358,11 @@
         transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
       }
+
+      .side{
+        font-size: 1rem;
+        font-weight: 700;
+      }
     
       .navbar .menu-items {
         padding-top: 6.25rem;
@@ -348,6 +383,10 @@
         margin-bottom: 1.5rem;
         font-size: 1.3rem;
         font-weight: 500;
+      }
+
+      .news{
+        padding:4%
       }
     
       .logo {
