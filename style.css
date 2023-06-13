@@ -111,7 +111,7 @@
   }
   
   .menu-items a:hover {
-    background-color: #444;
+    background-color: #44444494;
     color: #ede5d5;
   }  
 
@@ -155,7 +155,6 @@
     padding: 0.5rem;
     border-radius: 0.25rem;
     border: 1px solid #ccc;
-    color: white;
     box-sizing: border-box;
 
   }
@@ -240,7 +239,6 @@
 
   .portfolio{
     width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,7 +290,7 @@
     }
     .abouttext{
       text-align: center;
-      padding: 5%;
+      padding: 10%;
     }
 
     form{
