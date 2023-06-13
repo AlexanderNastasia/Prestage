@@ -277,6 +277,14 @@
         -webkit-overflow-scrolling: touch;
     }
 
+    .article{
+      padding-bottom: 5%;
+    }
+  
+    .side{
+      margin:0;
+      }
+
     body{
       font-size: 0.75rem;
     }
@@ -340,7 +348,7 @@
         height: 0.25rem;
         width: 100%;
         border-radius: 0.625rem;
-        background: #333;
+        background: #ffffff;
       }
     
       .navbar-container .hamburger-lines .line1 {
